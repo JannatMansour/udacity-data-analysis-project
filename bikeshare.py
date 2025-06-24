@@ -1,12 +1,9 @@
 import csv
 import itertools
 import pandas as pd
-import numpy as np
 import time
 
-
-
-city_to_file = {'chicago':'Resource/chicago.csv','new york':'Resource/new_york_city.csv','washington':'Resource/washington.csv'}
+city_to_file = {'chicago':'chicago.csv','new york':'new_york_city.csv','washington':'washington.csv'}
 month_to_index = {'january':1,'february':2,'march':3,'april':4,'may':5,'june:':6}
 day_to_index = {'monday':0, 'tuesday':1, 'wednesday':2, 'thursday':3, 'friday':4, 'saturday':5,'sunday':6}
 time_range_to_letters = {'month':'M','day':'D','both':'B','none':'N'}
